@@ -1,9 +1,20 @@
 version: 2
 
 sources:
-  - name: github
-    database: TEST_DB
-    schema: GITHUB
+  - name: jaffle_shop
+    database: raw
+    schema: jaffle_shop
     tables:
-      - name: COMMIT
-      - name: USER
+      - name: orders
+      - name: customers
+
+  - name: stripe
+    tables:
+      - name: payments
+
+  # - name: github
+  #   database: TEST_DB
+  #   schema: GITHUB
+  #   tables:
+  #     - name: COMMIT
+  #     - name: USER
