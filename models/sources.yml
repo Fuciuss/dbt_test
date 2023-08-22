@@ -12,9 +12,9 @@ sources:
     tables:
       - name: payments
 
-  # - name: github
-  #   database: TEST_DB
-  #   schema: GITHUB
-  #   tables:
-  #     - name: COMMIT
-  #     - name: USER
+  - name: GITHUB
+    database: TEST_DB
+    schema: GITHUB
+    tables:
+      - name: COMMIT
+      - name: USER
