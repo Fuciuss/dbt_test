@@ -1,10 +1,1 @@
-
-
-
-
-
-
-SELECT 1 FROM {{ source('GITHUB', 'COMMIT') }}
-
-
-SELECT 1 FROM {{ source('jaffle_shop', 'customers') }}
+SELECT "hello world" FROM {{ source('GITHUB', 'COMMIT') }}
