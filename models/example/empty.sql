@@ -1,3 +1,1 @@
-
-
-SELECT 
+SELECT 'This model has been intentionally left empty, the webhook will be used to trigger dbt transforms in the bitbucket pipeline of the data-modelling repo'
