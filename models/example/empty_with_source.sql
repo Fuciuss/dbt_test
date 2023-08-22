@@ -1,1 +1,2 @@
-SELECT * from {{ source('GITHUB', 'COMMIT') }}
+-- SELECT * from {{ source('GITHUB', 'COMMIT') }}
+SELECT 1
