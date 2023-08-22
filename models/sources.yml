@@ -1,6 +1,9 @@
+version: 2
+
+sources:
   - name: github
     database: TEST_DB
     schema: GITHUB
     tables:
-      - name: COMMIT,
+      - name: COMMIT
       - name: USER
